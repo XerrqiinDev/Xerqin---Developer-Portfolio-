@@ -1,24 +1,110 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Xerqin - Developer Portfolio</title>
-  
-  <link rel="Stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="">
-  <link rel="shortcut icon" type="image/png" href="">
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XerqinMC | Minecraft Developer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>XerqinMC</h1>
-  <nav class="topbar">
-    <a href="#about">About</a>
-    <a href="#language">Language</a>
-    <a href="#plugin">Plugins</a>
-    <a href="#servers">Servers</a>
-  </nav>
-     
-     
+
+<header class="header">
+    <div class="logo">XerqinMC</div>
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav class="nav" id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tag">MINECRAFT DEVELOPER</p>
+            <h1>Building Minecraft<br><span>Experiences.</span></h1>
+            <p class="description">
+                I create Minecraft plugins, servers, systems and custom experiences
+                designed to make communities better.
+            </p>
+            <div class="buttons">
+                <a class="btn primary" href="#projects">View Projects</a>
+                <a class="btn secondary" href="#contact">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <p class="tag">ABOUT ME</p>
+        <h2>Developer focused on Minecraft.</h2>
+        <p class="text">
+            I'm a Minecraft developer who enjoys building plugins, server systems,
+            websites and tools. I focus on clean designs, useful features and
+            reliable server experiences.
+        </p>
+    </section>
+
+    <section id="skills" class="section">
+        <p class="tag">SKILLS</p>
+        <h2>What I work with</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Java</h3>
+                <p>Minecraft plugins and server-side systems.</p>
+            </div>
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>HTML, CSS and JavaScript websites.</p>
+            </div>
+            <div class="card">
+                <h3>Minecraft Servers</h3>
+                <p>Server setup, configuration and network systems.</p>
+            </div>
+            <div class="card">
+                <h3>Discord Bots</h3>
+                <p>Tools and bots for Minecraft communities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <p class="tag">PROJECTS</p>
+        <h2>Things I've built</h2>
+
+        <div class="projects">
+            <article class="project">
+                <div class="project-icon">01</div>
+                <h3>Vanguard Network</h3>
+                <p>Minecraft server network and custom gameplay systems.</p>
+                <span>Java · Minecraft</span>
+            </article>
+
+            <article class="project">
+                <div class="project-icon">02</div>
+                <h3>VanguardPunish</h3>
+                <p>Custom punishment and moderation system for servers.</p>
+                <span>Java · Plugin</span>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <p class="tag">CONTACT</p>
+        <h2>Let's build something.</h2>
+        <p class="text">Interested in working together or checking out my projects?</p>
+        <a class="btn primary" href="mailto:your@email.com">Email Me</a>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 XerqinMC. Minecraft Developer.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
+
